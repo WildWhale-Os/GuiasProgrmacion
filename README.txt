@@ -1,1 +1,0 @@
-Resolucion ejercicios programacion
