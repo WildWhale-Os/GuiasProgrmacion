@@ -1,9 +1,13 @@
 /*
 
-
-Timus 1991. The battle near the swamp
+Autor: Tomas Bravo
+Solucione propia.
 timus_ID = TomasBravo
 Judge_ID = 295450ZH
+
+Porblema 14:
+Timus 1991. The battle near the swamp
+
 
 */
 
