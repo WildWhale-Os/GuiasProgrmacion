@@ -1,7 +1,5 @@
 /* 
 
-
-
 Timus 1787. Turn for MEGA
 timus_ID = TomasBravo
 Judge_ID = 295450ZH
@@ -13,18 +11,24 @@ Judge_ID = 295450ZH
 int main()
 {
     int n, k, autosRestantes, autos = 0;
-    int carsAtTime[101];
-    for (int i = 0; i < 101; i++)
-        carsAtTime[i] = 0;
+    
 
     scanf("%d %d", &k, &n);
 
-    for (int i = 1; i <= n; i++)
-        scanf("%d", &carsAtTime[i]);
+    int carsAtTime[n];
+    if (k >= 1 && n <= 100)
+    {
+        for (int i = 0; i < n; i++)
+            scanf("%d", &carsAtTime[i]);
 
-    for (int i = 0; i <= n; i++)
-        autos += carsAtTime[i];
+        for (int i = 0; i < n; i++)
+            autos += carsAtTime[i] - k;
 
-    autosRestantes = autos - (n * k);
-    printf("%d\n", autosRestantes);
+        if(autos < 0)
+            autos = 1;
+        
+        printf("%d\n", autos);
+    }
+
+    return 0;
 }
