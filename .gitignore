@@ -1,4 +1,4 @@
 .vscode/
-guia2/bin
+bin
 guia2/*.zip
 guia2/*.png
