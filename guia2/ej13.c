@@ -15,20 +15,20 @@ Timus 1068. Sum
 
 int main()
 {
-    int result = 0, cota;
+    int result = 0, cota; // definimas la variables
 
-    scanf("%d", &cota);
-    if (cota <= 10000 && cota >= -10000)
+    scanf("%d", &cota);                  // pedimos hasta que numero sumaremos desde 1
+    if (cota <= 10000 && cota >= -10000) // el abs(cota) debe ser menor o igual a 10000
     {
-        if (cota > 0)
-            for (int i = 1; i <= cota; i++)
+        if (cota > 0)                       // si vamos a sumar desde uno hasta un numero porsitivo
+            for (int i = 1; i <= cota; i++) // solo recorremos los numeros desde el 1 hasta cota sumandolos
                 result += i;
 
-        else
-            for (int i = cota; i <= 1; i++)
+        else                                // si sumamos de 1 hasta un numero negativo
+            for (int i = cota; i <= 1; i++) // partiremos sumando desde el numero entregado hasta uno.
                 result += i;
 
-        printf("%d\n", result);
+        printf("%d\n", result); // imprimimos el resultado de la suma.
     }
 
     return 0;
