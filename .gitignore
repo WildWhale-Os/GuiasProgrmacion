@@ -2,3 +2,5 @@
 bin
 guia2/*.zip
 guia2/*.png
+*.sublime-project
+*.sublime-workspace
