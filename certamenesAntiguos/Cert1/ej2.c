@@ -1,3 +1,15 @@
+/*
+pida dos enteros n, m, luego llene una matriz1[n][m] y matriz2[m][n]
+y devuelva la relacion entre estas dos matrices:
+
+"Transpuesta" sin la matriz2 en la transpuesta de la matriz1.
+"Contenida", si la matriz2 no es la transpuesta de la matriz1 y si todos los elemtos
+de la matriz1 estan contenidos en la matriz2.
+"Sin relacion", si no cumple con ninguno de los dos criterios anteriores.
+
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
