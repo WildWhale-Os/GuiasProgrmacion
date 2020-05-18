@@ -4,12 +4,12 @@ Autor: Tomas Bravo.
 Solucion propia.
 
 Problema 8:
-Escribe un programa que pida un número entero n y a continuación 
-lea n coordenadas en dos dimensiones. A continuación, el programa 
-deberá imprimir por pantalla las coordenadas ordenadas de menor a 
+Escribe un programa que pida un numero entero n y a continuacion 
+lea n coordenadas en dos dimensiones. A continuacion, el programa 
+debera imprimir por pantalla las coordenadas ordenadas de menor a 
 mayor. En caso de que exista empate entre el componente en las abscisas, 
-se deberá comparar el valor en las ordenadas. El programa deberá verificar 
-que la entrada sea válida, con n positivo.
+se debera comparar el valor en las ordenadas. El programa debera verificar 
+que la entrada sea valida, con n positivo.
 
 */
 #include <stdio.h>

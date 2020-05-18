@@ -3,7 +3,7 @@ Autor: Tomas Bravo
 Solucion propia.
 
 Problema 2:
-Escribe un programa que pida un número entero n y a continuación imprima 
+Escribe un programa que pida un número entero n y a continuacion imprima 
 las n primeras potencias de dos. El programa debe validar la entrada cuidando 
 que el valor ingresado no sea negativo.
 */
@@ -19,6 +19,8 @@ int main()
         printf("Introdusca un numero mayor o igual a 0: ");
         scanf("%d", &numero); // si el numero entrego al inicio del programa es negativo se le pedira al usuario que ingrese otro
     } while (numero < 0);
+
+    printf("Las primera %d potencias de 2 son: \n",numero );
 
     for(int i=0; i < numero; i++)
     {

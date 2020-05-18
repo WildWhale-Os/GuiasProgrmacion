@@ -4,8 +4,8 @@ Autor: Tomas Bravo
 Solucion Propia.
 
 Problema 6:
-Escribe un programa que pida un número entero n y a continuación imprima 
-los n primeros niveles del triángulo de pascal. El programa deberá verificar 
+Escribe un programa que pida un numero entero n y a continuacion imprima 
+los n primeros niveles del triangulo de pascal. El programa deberá verificar 
 que la entrada sea válida (n positivo).
 
 */
@@ -21,6 +21,8 @@ int main()
         scanf("%d", &nNiveles);
     } while (nNiveles < 0);
 
+
+    printf("Los primeros %d niveles del triangulo de Pascal son:\n",nNiveles );
     int base[nNiveles]; // se declara un arreglo con igual cantidad de datos a numero de niveles a imprimir
 
     for (int i = 0; i < nNiveles; i++) // se llena el array con puros 0

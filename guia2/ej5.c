@@ -4,9 +4,9 @@ Autor: Tomas Bravo
 Solucion Propia.
 
 Problema 5:
-Escribe un programa que pida un número entero n, a continuación, pida ingresar 
-n números enteros y luego los imprima ordenados como se especifica a continuación. 
-Primero, deberán aparecer todos los números pares, ordenados de menor a mayor y 
+Escribe un programa que pida un numero entero n, a continuacion, pida ingresar 
+n numeros enteros y luego los imprima ordenados como se especifica a continuacion. 
+Primero, deberán aparecer todos los numeros pares, ordenados de menor a mayor y 
 luego los impares ordenados de mayor a menor.
 
 */

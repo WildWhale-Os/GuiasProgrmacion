@@ -4,8 +4,8 @@ Autor: Tomas Bravo
 Con ayuda de Sebastian Aguila.
 
 Problema 7:
-Escribe un programa que pida un número entero n, lea n números enteros 
-y luego imprima todas las posibles permutaciones de 3 de esos números.
+Escribe un programa que pida un numero entero n, lea n numeros enteros 
+y luego imprima todas las posibles permutaciones de 3 de esos numeros.
 
 */
 

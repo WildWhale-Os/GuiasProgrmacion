@@ -4,7 +4,7 @@ Autor: Tomas Bravo.
 Solucion Propia.
 
 Problema 10:
-Escribe un programa que pida 16 números enteros, los almacene 
+Escribe un programa que pida 16 numeros enteros, los almacene 
 en una matriz de 4×4 y calcule el determinante de la matriz
 
 */

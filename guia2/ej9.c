@@ -4,9 +4,9 @@ Autor: Tomas Bravo
 Solucion Propia.
 
 Problema 9:
-Escribe un programa que pida un número entero n y a continuación 
-lea n coordenadas en dos dimensiones. El programa deberá imprimir 
-por pantalla las coordenadas del punto medio de la región cuadrada 
+Escribe un programa que pida un numero entero n y a continuacion 
+lea n coordenadas en dos dimensiones. El programa debera imprimir 
+por pantalla las coordenadas del punto medio de la region cuadrada 
 delimitada por: el punto con la abscisa de menor valor, el punto con 
 la abscisa de mayor valor, el punto con la ordenada de mayor valor y 
 el punto con la ordenada de menor valor.

@@ -7,9 +7,9 @@ Material de Apoyo:
 https://www.youtube.com/watch?v=0iYLgzr2tpg
 
 Problema 1 :
-Escribe un programa que pida un número entero n y a continuación imprima
-los n primeros números de la sucesión de fibonacci. El programa debe validar
-que número ingresado sea positivo.
+Escribe un programa que pida un numero entero n y a continuacion imprima
+los n primeros numeros de la sucesion de fibonacci. El programa debe validar
+que numero ingresado sea positivo.
 
 */
 
@@ -28,6 +28,8 @@ int main()
         printf("ingrese un numero entero mayor a cero: ");
         scanf("%d", &numero); // inicializar valor de numero
     } while (numero <= 0);
+
+    printf("Los primeros %d numeros de la serie de Fibonacci son: \n",numero );
 
     for (int control = 0; control <= numero; control++) // bucle que imprime los numero de la serie Fibonacci
     {

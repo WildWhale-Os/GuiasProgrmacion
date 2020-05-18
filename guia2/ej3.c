@@ -4,9 +4,9 @@ Autor: Tomas Bravo
 Solucion propia.
 
 Problema 3:
-Escribe un programa que pida un número entero n, a continuación, 
-pida ingresar n números enteros y luego imprima: el menor, el mayor, 
-el promedio (entero) y la mediana. Valide que n sea un número mayor a cero.
+Escribe un programa que pida un numero entero n, a continuacion, 
+pida ingresar n numero enteros y luego imprima: el menor, el mayor, 
+el promedio (entero) y la mediana. Valide que n sea un numero mayor a cero.
  */
 #include <stdio.h>
 #include <stdlib.h>
