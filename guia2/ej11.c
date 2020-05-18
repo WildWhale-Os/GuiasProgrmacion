@@ -87,6 +87,8 @@ int main()
         }
     }
 
+    printf("La matriz distancias de la matriz entregada es:\n");
+
     for (int i = 0; i < orden; i++)  // luego imprimimos la matriz distancia en la pantalla.
     {
         for (int j = 0; j < orden; j++)

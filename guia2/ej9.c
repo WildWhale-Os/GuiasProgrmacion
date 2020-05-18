@@ -32,7 +32,7 @@ int main()
     {
         for (int i = 0; i < amountVectors; i++) // se le pediran las coordenadas X e Y de los amountVectors que el usuario dijo que entregaria
         {
-            printf("entregue las coordenas de el vector %d de la forma (x,y): ", i + 1);
+            printf("entregue las coordenas del vector %d de la forma (x,y): ", i + 1);
             scanf("%d %d", &coX, &coY); // se lee y almacenan las coordenadas de cada vector
 
             if (i == 0) // en la primera iteracion

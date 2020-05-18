@@ -76,21 +76,14 @@ int main()
         // imprimiendo las pares odernados de forma ascendente
         printf("Los numeros pares ingresados ordenados de forma ascendete: ");
         for (int i = 0; i < nPares; i++)
-        {
-            if (i == 0)
-                printf("%d", pares[i]);
-            else
-                printf(" - %d", pares[i]);
-        }
+            printf("%d  ", pares[i]);
+            
+        
         // imprimir impares ordenados de forma descendente
         printf("\nLos numeros impares ingresados ordenados de forma descendente: ");
         for (int i = nImpares - 1; i >= 0; i--)
-        {
-            if (i == nImpares - 1)
-                printf("%d", impares[i]);
-            else
-                printf(" - %d", impares[i]);
-        }
+            printf("%d  ", impares[i]);
+        
         printf("\n");
     }
 

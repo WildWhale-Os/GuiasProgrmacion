@@ -29,9 +29,14 @@ int main()
         scanf("%d", &numeros[i]);
     }
 
+    printf("Las combinaciones de 3 numeros que se pueden hacer con los %d numeros entregados son: \n",sizeArray);
+
     int contador = 0; // declaramos un contador para llevar la cuenta de cuantas permutaciones hemos hecho
     switch (sizeArray) // dependiendiendo del largo de nuestro array haremos
     {
+        case 0:
+            printf("No se puedes hacer combinaciones con 0 elementos\n");
+            break;
         case 1: // si es de largo 1 solo imprimiremos el primer valor del array
             printf("%d\n", numeros[0]);
             break;
