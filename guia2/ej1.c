@@ -31,7 +31,7 @@ int main()
 
     printf("Los primeros %d numeros de la serie de Fibonacci son: \n",numero );
 
-    for (int control = 0; control <= numero; control++) // bucle que imprime los numero de la serie Fibonacci
+    for (int control = 0; control < numero; control++) // bucle que imprime los numero de la serie Fibonacci
     {
         printf("%d) %d\n", control + 1, resultado); // imprimir el valor de resultado al inicio del bucle(0 en la primera iteracion)
         a = b;
