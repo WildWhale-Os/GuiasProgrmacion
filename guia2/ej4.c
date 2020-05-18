@@ -1,8 +1,9 @@
 /*
 
 Autor: Tomas Bravo
+Solucion Propia.
 
-
+Problema 4:
 Escribe un programa que pida un número entero y escriba 
 primo o compuesto según sea el caso.
 

@@ -1,7 +1,9 @@
 /* 
 
 Autor: Tomas Bravo
+Solucion Propia.
 
+Problema 6:
 Escribe un programa que pida un número entero n y a continuación imprima 
 los n primeros niveles del triángulo de pascal. El programa deberá verificar 
 que la entrada sea válida (n positivo).

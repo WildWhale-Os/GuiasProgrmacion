@@ -1,6 +1,7 @@
 /* 
 
-Autor: Tomas Bravo, con ayuda de video de youtube.
+Autor: Tomas Bravo 
+con ayuda de video de youtube.
 
 Material de Apoyo:
 https://www.youtube.com/watch?v=0iYLgzr2tpg
@@ -27,9 +28,10 @@ int main()
         printf("ingrese un numero entero mayor a cero: ");
         scanf("%d", &numero); // inicializar valor de numero
     } while (numero <= 0);
+
     for (int control = 0; control <= numero; control++) // bucle que imprime los numero de la serie Fibonacci
     {
-        printf("%d) %d\n", control + 1, resultado); // imprimir el valor de resultado al inicial el bucle(0 en la primera iteracion)
+        printf("%d) %d\n", control + 1, resultado); // imprimir el valor de resultado al inicio del bucle(0 en la primera iteracion)
         a = b;
         b = resultado;
         resultado = a + b;

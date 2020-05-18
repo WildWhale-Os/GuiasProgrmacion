@@ -1,7 +1,9 @@
 /* 
 
 Autor: Tomas Bravo
+Solucion Propia.
 
+Problema 5:
 Escribe un programa que pida un número entero n, a continuación, pida ingresar 
 n números enteros y luego los imprima ordenados como se especifica a continuación. 
 Primero, deberán aparecer todos los números pares, ordenados de menor a mayor y 
@@ -39,6 +41,7 @@ int main()
         //declaracion de los arreglos que contendran a los numero pares e impares respectivamente del conjunto entregado
         int pares[nPares];
         int impares[nImpares];
+
         // odenamos el conunto de numeros entregados.
         for (int i = 0; i < cant; i++)
         {
@@ -51,32 +54,25 @@ int main()
             }
             numeros[posicionActual] = numeroActual;
         }
+      
+        int posPares = 0; //posicion actual en nuestro arreglo de numero pares
+        int posImpares = 0; // posicion actual en nuestro arreglo de numeros impares
 
-        int posPares = 0;
-        int posImpares = 0;
-        for (int i = 0; i < cant; i++)
-        {
+        for (int i = 0; i < cant; i++) // por cada numero de nuestro array inicial
+        { 
 
-            if (numeros[i] % 2 == 0)
+            if (numeros[i] % 2 == 0) // si el numero es par lo ponemos en nuestro arreglo de numero pares
             {
                 pares[posPares] = numeros[i];
                 posPares++;
             }
-            else
-            {
+            else // si es impar lo colocamos en nuestro arreglo de numeros impares
+            { 
                 impares[posImpares] = numeros[i];
                 posImpares++;
             }
         }
-        // imprimir el array ordenada para confirmacion
-        /*  for (int i = 0; i < cant; i++)
-    {
-        if (i == 0)
-            printf("%d", numeros[i]);
-        else
-            printf(" - %d", numeros[i]);
-    }
-    printf("\n"); */
+        
         // imprimiendo las pares odernados de forma ascendente
         printf("Los numeros pares ingresados ordenados de forma ascendete: ");
         for (int i = 0; i < nPares; i++)

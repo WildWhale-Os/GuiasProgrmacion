@@ -3,6 +3,7 @@
 Autor: Tomas Bravo
 Solucion Propia.
 
+Problema 9:
 Escribe un programa que pida un número entero n y a continuación 
 lea n coordenadas en dos dimensiones. El programa deberá imprimir 
 por pantalla las coordenadas del punto medio de la región cuadrada 
