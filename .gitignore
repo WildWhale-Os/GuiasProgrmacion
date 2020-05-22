@@ -5,3 +5,4 @@ guia2/*.png
 *.sublime-project
 *.sublime-workspace
 *.psc
+*.out
