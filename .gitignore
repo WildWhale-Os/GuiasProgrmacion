@@ -6,3 +6,4 @@ guia2/*.png
 *.sublime-workspace
 *.psc
 *.out
+ayuda.c
