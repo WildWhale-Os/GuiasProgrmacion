@@ -17,7 +17,7 @@ int main()
     int matriz[4][4], matrizAux3[3][3], matrizAux2[2][2]; // declaracion de una matrizes necesarias para resolver el problema
     int det = 0;
     printf("Ingrese los elementos de la matriz de 4 x 4:\n");
-    for (int i = 0; i < 4; i++)     // itraciones por cada fila de la matriz
+    for (int i = 0; i < 4; i++)     // iteraciones por cada fila de la matriz
         for (int j = 0; j < 4; j++) //iteraciones por cada valor de cada fila de la matriz
         {
     /* Si quiere saber con certeza en que posicion de la matriz esta ingresando el valor descomente la linea 23 */
@@ -85,6 +85,5 @@ int main()
     }
 
     printf("El determinante de la matriz entregada es: %d\n",det); // imprimir el determinante de la matriz dada
-
     return 0;
 }

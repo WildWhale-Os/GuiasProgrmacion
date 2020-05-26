@@ -60,17 +60,17 @@ void divisor(int n, int d)
 /* Funcion que busca e imprimer en pantalla los divisiores de un numero, n es el numero al que se le buscaran 
 los divisores, y d es el primer numero desde el cual se buscaran los divisores del numero d*/
 {
-    if (n < 2 && n > -2) // el numero entregador debe vivir en [-2,2] de otro forma no tendra divisores entre 2 y 10.
+    if (n < 2 && n > -2) // el numero entregador debe vivir en ]-2,2[ de otro forma no tendra divisores entre 2 y 10.
     {
         printf("El numero entregado no tiene divisiores entre 2 y 10.\n");
     }
     else if (d <= 10) // Solo buscara divisiores entre el numero d entregado hasta el 10.
     {
-        if (n % d == 0) // cheackea que el numero entregado por teclado sea divisible por numero d entrgado.
+        if (n % d == 0) // chequea que el numero entregado por teclado sea divisible por numero d entrgado.
         {
             printf("- %i\n", d);// si n es divisible en d se imprimira el valor de d en pantalla.
         }
-        divisor(n, ++d);// se ejecuta de nuevo la funcion pero con el succesor de d
+        divisor(n, ++d);// se ejecuta de nuevo la funcion pero con el sucesor de d
     }
 }
 
