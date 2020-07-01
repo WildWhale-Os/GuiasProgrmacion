@@ -11,22 +11,21 @@ multiplicar o dividir v1 y v2, dependiendo de si el valor de op es +, -, * o /
 #include <stdio.h>
 #include <stdlib.h>
 
-double Operaciones (char op, double v1, double v2)
+double Operaciones(char op, double v1, double v2) // declaramos nuestra funcion que resive dos decimales de punto flotante de presicion doble y un caracter
 {
-	switch(op)
+	switch (op) // dependiento del caracter
 	{
-		case '+':
-			return (v1 + v2);
-			break;
-		case '-':
-			return (v1 - v2);
-			break;
-		case '*':
-			return (v1 * v2);
-			break;
-		case '/':
-			return (v1 / v2);
-			break;
-		
+	case '+':			  // si el caracter es el caracter +
+		return (v1 + v2); // le sumamos a v2 a v1 y devolvemos el resultado
+		break;
+	case '-':			  // si es el caracter -
+		return (v1 - v2); //le restamos v2 a v1 y devolvemos el resultado
+		break;
+	case '*':			  // si es el caracter *
+		return (v1 * v2); // multiplicamos v1 con v2 y devolvemos el resultado
+		break;
+	case '/':			  // si es el caracter /
+		return (v1 / v2); // dividimos v1 en v2 y devolvemos el resultado
+		break;
 	}
 }
