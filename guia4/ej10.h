@@ -24,7 +24,7 @@ int LongitudPalabraMasLarga(int n, char crucigrama[n][n]) // definicion de la fu
         for (int j = 0; j < n; j++) // por cada elemento de cada fila y columna
         {
 
-            if (crucigrama[i][j] >= 'A' && crucigrama[i][j] <= 'Z') // por cada caracter dentro de la fila nos fijamos si es una letra mayuscula
+            if (crucigrama[i][j] >= 'a' && crucigrama[i][j] <= 'z') // por cada caracter dentro de la fila nos fijamos si es una letra mayuscula
                 lengRow++;                                          // de ser asi aumentamos el contador de la palabra de la fila actual
             else if (crucigrama[i][j] == '-')                       // por otra parte si el caracter es un -
             {
@@ -33,7 +33,7 @@ int LongitudPalabraMasLarga(int n, char crucigrama[n][n]) // definicion de la fu
 
                 lengRow = 0; // y volvemos a 0 el valor de lengrow
             }
-            if (crucigrama[j][i] >= 'A' && crucigrama[j][i] <= 'Z') // por cada columna hacemos lo mismo
+            if (crucigrama[j][i] >= 'a' && crucigrama[j][i] <= 'z') // por cada columna hacemos lo mismo
                 lenColum++;
             else if (crucigrama[j][i] == '-')
             {
