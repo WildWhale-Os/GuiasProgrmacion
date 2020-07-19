@@ -7,3 +7,7 @@ guia2/*.png
 *.psc
 *.out
 ayuda.c
+ayuda.h
+pruebaLectura.c
+pruebaEscritura.c
+ventanaBaseSDL2.c

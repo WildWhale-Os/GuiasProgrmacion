@@ -150,6 +150,7 @@ int MenuMcd() // esta funcion despliegua el submenu del calculo de maximo comun 
 	scanf("%d", &opcion);				   // leemos la opcion
 	return opcion;						   // y la devolvemos
 }
+
 int MenuOperaciones() // funcio despliega el submenu de operaciones
 {
 	int opcion; // variable donde guardaremos la opcion elegida por el usuario
