@@ -6,6 +6,7 @@ guia2/*.png
 *.sublime-workspace
 *.psc
 *.out
+*.json
 ayuda.c
 ayuda.h
 pruebaLectura.c
