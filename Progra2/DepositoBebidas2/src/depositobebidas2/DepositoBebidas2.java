@@ -1,0 +1,102 @@
+package depositobebidas2;
+
+import java.util.ArrayList;
+
+public class DepositoBebidas2 {
+    public static void main(String[] args) {
+        Deposito deposito = new Deposito();
+        deposito.addBebida(new Fanta(1));
+        deposito.addBebida(new Kem(2));
+        deposito.addBebida(new Sprite(3));
+        deposito.addBebida(new CocaCola(4));
+        Bebida bebida = deposito.getBebida();
+        System.out.println(bebida.getSerie());
+        System.out.println(bebida.beber());
+        bebida = deposito.getBebida();
+        System.out.println(bebida.getSerie());
+        System.out.println(bebida.beber());
+        bebida = deposito.getBebida();
+        System.out.println(bebida.getSerie());
+        System.out.println(bebida.beber());
+        bebida = deposito.getBebida();
+        System.out.println(bebida.getSerie());
+        System.out.println(bebida.beber());
+        System.out.println(deposito.getBebida());
+    }
+}   
+
+class Deposito {
+    private ArrayList<Bebida> deposito;
+    public Deposito(){
+        deposito = new ArrayList<Bebida>();
+    }
+    public void addBebida(Bebida bebida){
+        deposito.add(bebida);
+    }
+
+    public Bebida getBebida(){
+        if(deposito.size() == 0)
+            return null;
+        return deposito.remove(0);
+    }
+}
+
+abstract class Bebida {
+    private int serie;
+
+    public Bebida(int numSerie) {
+        serie = numSerie;
+    }
+
+    public int getSerie() {
+        return serie;
+    }
+
+    public String beber(){
+        return "sabor: ";
+    }
+}
+
+class Sprite extends Bebida {
+    public Sprite(int serie) {
+        super(serie);
+    }
+
+    @Override
+    public String beber() {
+        return super.beber() +"sprite";
+    }
+}
+
+class Fanta extends Bebida {
+    public Fanta(int serie) {
+        super(serie);
+    }
+
+    @Override
+    public String beber() {
+        return super.beber() + "fanta";
+    }
+}
+
+class Kem extends Bebida {
+    public Kem(int serie) {
+        super(serie);
+    }
+
+    @Override
+    public String beber() {
+        return super.beber() +"kem";
+    }
+}
+
+class CocaCola extends Bebida {
+    public CocaCola(int serie) {
+        super(serie);
+    }
+
+    @Override
+    public String beber() {
+        return super.beber() +"cocacola";
+    }
+}
