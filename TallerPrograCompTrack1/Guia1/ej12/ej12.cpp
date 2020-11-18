@@ -1,16 +1,16 @@
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
-typedef struct 
+typedef struct
 {
     string prefijo;
     string localidad;
     int precio;
 } Destino;
 
-
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
     string linea;
     getline(cin, linea);
@@ -19,7 +19,9 @@ int main(int argc, char const *argv[])
     {
         string al;
         Destino aux;
-        linea =  linea.replace('$',"\n");
+        char c = '$';
+        int pos = linea.find(c);
+        linea.replace(pos, 1, " ");
         istringstream ss(linea);
         ss >> aux.prefijo;
         ss >> aux.localidad;
@@ -35,6 +37,6 @@ int main(int argc, char const *argv[])
         cout << prefijos[i].precio << endl;
         cout << endl;
     }
-    
+
     return 0;
 }
