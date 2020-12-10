@@ -32,10 +32,13 @@ float Partision(float init, float fin, int p, int q, int r, int s, int t, int u)
                 return Partision(init, x, p, q, r, s, t, u);
         }
         if (fabs(result) < 10e-6)
+        {
             return x;
+        }
+        else
+            return -1;
     }
-    else
-        return -1;
+    return -1;
 }
 
 int main(int argc, char const *argv[])

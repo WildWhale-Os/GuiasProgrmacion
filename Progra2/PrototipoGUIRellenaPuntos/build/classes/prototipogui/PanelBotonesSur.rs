@@ -1,0 +1,2 @@
+prototipogui.BotonSur
+prototipogui.PanelBotonesSur

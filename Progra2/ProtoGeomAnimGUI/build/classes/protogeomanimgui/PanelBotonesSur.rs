@@ -1,0 +1,3 @@
+protogeomanimgui.PanelBotonesSur
+protogeomanimgui.BotonDer
+protogeomanimgui.BotonIzq
