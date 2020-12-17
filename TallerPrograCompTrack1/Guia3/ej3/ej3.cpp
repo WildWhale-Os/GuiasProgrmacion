@@ -12,28 +12,24 @@ int main(int argc, char const *argv[])
     {
         int num, caja = 0, mayor = -1;
         cin >> num;
-        vector<set<int>> cajas;
-        set<int> aux;
-        cajas.push_back(aux);
+        set<int> cajas;
         for (int j = 0; j < num; j++)
         {
             int elem;
             cin >> elem;
-            if (cajas.at(caja).find(elem) == cajas.at(caja).end())
+            if (cajas.find(elem) == cajas.end())
             {
-                cajas.at(caja).insert(elem);
+                cajas.insert(elem);
             }
             else
             {
-                set<int> nueva;
-                cajas.push_back(nueva);
-                caja++;
+                if (cajas.size() > mayor)
+                {
+                    mayor = cajas.size();
+                }
+                cajas.clear();
+                
             }
-        }
-        for (int j = 0; j < cajas.size(); j++)
-        {
-            if (cajas.at(j).size() > mayor)
-                mayor = cajas.at(j).size();
         }
         cout << mayor << endl;
     }
